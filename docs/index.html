@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="icon" href="./iconos/logo.png">
   <link rel="stylesheet" href="./CSS/bootstrap.min.css">
   <link rel="stylesheet" href="./CSS/bootstrap-icons/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./AOS/aos.css">
   <link rel="stylesheet" href="./CSS/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
   <script src="./JS/scrollToTop.js"></script>
 </head>
 <body>
@@ -43,7 +47,7 @@
               <h2 class="text-center">Bienvenidos a mi portafolio</h2>
                 <div class="row py-4">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                      <img src="./img/banner.png" class="img-fluid text-center" alt="Banner">
+                      <img src="./img/banner.png" class="img-fluid" alt="Banner">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                       <p>¡Hola a todos!</p>
@@ -66,21 +70,22 @@
                       </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                      <img src="./img/andrec.jpg" class="img-fluid text-center" alt="Yo">
+                      <img src="./img/andrec.jpg" class="img-fluid text-center" alt="Yo" id="Yo">
                     </div>
                 </div>
             </div>
         </section>
+        <!--pipipi-->
         <section class="proyectos py-5">
           <div class="container">
               <h2 id="Proyectos" class="text-center">Proyectos</h2>
-              <div class="row py-4">
+              <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                   <div class="card text-center">
                     <img src="./img/itch.png" class="card-img-top img-fluid" alt="itch">
-                      <div class="card-body">
+                      <div class="itch">
                         <h5 class="card-title">Pagina Itch</h5>
-                        <p class="card-text">Aqui es donde subo los juegos creados por mí.</p>
+                        <h1 class="card-text">Aqui es donde subo los juegos creados por mí.</h1>
                         <a href="https://megaandre.itch.io" class="btn btn-primary">Ver pagina Itch</a>
                       </div>
                   </div>
@@ -88,9 +93,9 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                   <div class="card text-center">
                     <img src="./img/github.png" class="card-img-top img-fluid" alt="github">
-                      <div class="card-body">
+                      <div class="github">
                         <h5 class="card-title">GitHub</h5>
-                        <p class="card-text">Aqui hago diferentes trabajos en HTML.</p>
+                        <h1 class="card-text">Aqui hago diferentes trabajos en HTML.</h1>
                         <a href="https://github.com/megaandre" class="btn btn-primary">Ver pagina GitHub</a>
                       </div>
                   </div>
@@ -98,14 +103,13 @@
               </div>
           </div>
         </section>
-        
        <!-- Contacto -->
         <section class="contacto py-5">
           <div class="container">
               <h2 id="Contactame" class="text-center">Contáctame</h2>
               <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-12">
-                      <form>
+                      <form action="https://formspree.io/f/maygkylb" method="POST">
                           <div class="mb-3">
                               <label for="nombre" class="form-label">Nombre</label>
                               <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">

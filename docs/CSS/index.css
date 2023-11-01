@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background-color: #e44040;
+    background-color: #2b2929;
     color: #fff;
     padding: 10px 0;
 }
@@ -21,10 +21,11 @@ section {
 }
 h2 {
     font-size: 2rem;
-    color: #333;
+    color: #ffffff;
 }
 p {
     font-size: 1.2rem;
+    color: #ffffff;
     line-height: 1.6;
 }
 .btn {
@@ -42,7 +43,9 @@ p {
     max-height: 200px;
 }
 body {
-    background-color: #e44040;
+    background-color: #2b2929;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 #scrollToTop {
     display: none;
@@ -57,4 +60,10 @@ body {
     .container {
         padding: 20px;
     }
+}
+label{
+    color: #ffffff;
+}
+h1{
+    color: black;
 }
