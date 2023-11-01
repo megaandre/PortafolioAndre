@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="./CSS/bootstrap-icons/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./AOS/aos.css">
   <link rel="stylesheet" href="./CSS/index.css">
+  <script src="./JS/scrollToTop.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <img src="#" alt="Logo">
+                <img src="./img/logo.png" class="img-fluid" alt="Logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,102 +23,75 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#Proyectos">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#Contactame">Contactame</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <!--Inicio-->
+          </nav>
+        </header>
+      <main>
+        <!--Inicio Presentando Mi Portafolio-->
         <section class="inicio py-5">
             <div class="container">
               <h2 class="text-center">Bienvenidos a mi portafolio</h2>
                 <div class="row py-4">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="#" class="img-fluid text-center" alt="Yo">
+                      <img src="./img/banner.png" class="img-fluid text-center" alt="Banner">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p> ¡Hola a todos!
-
-                          Estoy emocionado de compartir con ustedes mi pasión por el desarrollo de videojuegos a través de mi portafolio web. En él, encontrarás una colección de proyectos en los que he trabajado con dedicación y creatividad. Desde mundos virtuales cautivadores hasta experiencias interactivas únicas, mi portafolio refleja mi amor por la creación de juegos.
-                         </p>
+                      <p>¡Hola a todos!</p>
+                      <p>Estoy emocionado de compartir con ustedes mi pasión por el desarrollo de videojuegos a través de mi portafolio web. En él, encontrarás una colección de proyectos en los que he trabajado con dedicación y creatividad. Desde mundos virtuales cautivadores hasta experiencias interactivas únicas, mi portafolio refleja mi amor por la creación de juegos.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Inicio-->
+        <!--Inicio Presentandome-->
         <section class="acerca py-5">
             <div class="container">
                 <h2 class="text-center">Acerca de Mi</h2>
                 <div class="row py-5">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                       <p>
-                        Mi nombre es André y actualmente estoy estudiando en la Universidad Amerike y estoy apasionado por la creación de mundos virtuales y experiencias interactivas. A mis 27 años, he estado inmerso en el emocionante mundo de desarrollo de videojuegos.
+                        Mi nombre es André y actualmente estoy estudiando la carrera de Desarrollo de Videojuegos en la Universidad Amerike, estoy apasionado por la creación de mundos virtuales y experiencias interactivas. A mis 27 años, he estado inmerso en el emocionante mundo de desarrollo de videojuegos.
                       </p>
                       <p>
-                        Desde una edad temprana, descubrí mi amor por los videojuegos, y esta pasión me llevó a explorar el arte y la ciencia detrás de la creación de juegos. Mi tiempo en la Universidad Amerike me ha brindado la oportunidad de adquirir conocimientos sólidos en programación, diseño de juegos y narrativa, habilidades fundamentales para mi carrera como desarrollador de videojuegos.
+                        Desde paqueño, descubrí mi amor por los videojuegos, y esta pasión me llevó a explorar el arte y la ciencia detrás de la creación de juegos. Mi tiempo en la Universidad Amerike me ha brindado la oportunidad de adquirir conocimientos sólidos en programación, diseño de juegos y narrativa, habilidades fundamentales para mi carrera como desarrollador de videojuegos.
                       </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="#" class="img-fluid text-center" alt="Yo1">
+                      <img src="./img/andrec.jpg" class="img-fluid text-center" alt="Yo">
                     </div>
                 </div>
             </div>
         </section>
         <section class="proyectos py-5">
           <div class="container">
-              <h2 class="text-center">Proyectos</h2>
+              <h2 id="Proyectos" class="text-center">Proyectos</h2>
               <div class="row py-4">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card">
-                      <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                  <div class="card text-center">
+                    <img src="./img/itch.png" class="card-img-top img-fluid" alt="itch">
                       <div class="card-body">
-                          <h5 class="card-title">Pagina Itch</h5>
-                          <p class="card-text">Aqui es donde subo los juegos creados por mí.</p>
-                          <a href="https://megaandre.itch.io" class="btn btn-primary">Ver pagina Itch</a>
+                        <h5 class="card-title">Pagina Itch</h5>
+                        <p class="card-text">Aqui es donde subo los juegos creados por mí.</p>
+                        <a href="https://megaandre.itch.io" class="btn btn-primary">Ver pagina Itch</a>
                       </div>
                   </div>
                 </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="card">
-                        <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                            <h5 class="card-title">GitHub</h5>
-                            <p class="card-text">Aqui hago diferentes trabajos en HTML.</p>
-                            <a href="https://github.com/megaandre" class="btn btn-primary">Ver pagina GitHub</a>
-                        </div>
-                    </div>
-                  </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card">
-                      <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                  <div class="card text-center">
+                    <img src="./img/github.png" class="card-img-top img-fluid" alt="github">
                       <div class="card-body">
-                          <h5 class="card-title">Proyecto 1</h5>
-                          <p class="card-text">Descripción del proyecto 1.</p>
-                          <a href="enlace-a-tu-proyecto.html" class="btn btn-primary">Ver proyecto</a>
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Aqui hago diferentes trabajos en HTML.</p>
+                        <a href="https://github.com/megaandre" class="btn btn-primary">Ver pagina GitHub</a>
                       </div>
                   </div>
                 </div>
@@ -126,9 +100,9 @@
         </section>
         
        <!-- Contacto -->
-      <section class="contacto py-5">
+        <section class="contacto py-5">
           <div class="container">
-              <h2 class="text-center">Contáctame</h2>
+              <h2 id="Contactame" class="text-center">Contáctame</h2>
               <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-12">
                       <form>
@@ -149,11 +123,13 @@
                   </div>
               </div>
           </div>
-      </section>
+        </section>
         
 
-    </main>
-    <footer></footer>
+      </main>
+    <footer>
+      <button id="scrollToTop" class="btn btn-secondary">Volver hacia arriba</button>
+    </footer>
     <script src="./JS/jquery-3.7.0.min.js"></script>
     <script src="./JS/bootstrap.min.js"></script>
     <script src="./JS/myscript.js"></script>
