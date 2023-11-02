@@ -2,6 +2,6 @@
 
 Practica 3 Parcial 3
 
-Andre Cerdan
+André Cerdán
 
 [Link]()
